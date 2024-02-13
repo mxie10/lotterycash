@@ -1,0 +1,13 @@
+.container_header {
+    height: 10vh;
+    padding:1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color:black;
+    background: linear-gradient(to right, rgb(100, 196, 194), rgb(58, 58, 176));
+    font-weight: bold;
+    color: white;
+}

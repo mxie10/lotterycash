@@ -1,0 +1,119 @@
+.App {
+  height: 100vh;
+  width:100%;
+  background-color: orange;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  height:85vh;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding-right:2rem;
+  margin-top: 3px;
+}
+
+.container_left_area {
+  width:30%;
+}
+
+.container_money_value_button {
+  width:90%;
+  height:70vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:12px;
+  margin-left:10%;
+  margin-top: 12%;
+  font-family: "Times New Roman", Times, serif;
+  background-color:chocolate;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+}
+
+.container_middle_area {
+  width:40%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  border-radius: 5%;
+  background-color: rgb(54, 139, 173);
+  gap:1.5rem;
+}
+
+.container_numeric_buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height:60%;
+  margin-left: 3%;
+  gap:4px;
+}
+
+.container_operation_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap:2px;
+}
+
+.operation_button {
+  width:50%;
+  text-align: center;
+  padding:0.5rem;
+  border: thin solid blueviolet;
+  cursor: pointer;
+  background-color: goldenrod;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.operation_button:hover {
+  background-color: rgb(208, 78, 174);
+}
+
+.container_generate_random_number {
+  width: 100%;
+  height: 2rem;
+  background-color: darkkhaki;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.container_generate_random_number:hover {
+  background-color: rgb(116, 25, 97);
+  color: white;
+}
+
+.container_right_area {
+  width:30%;
+  background-color: white;
+  border-radius: 5%;
+  background-color: rgb(115, 67, 158);
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+}
+
+.container_right_area_content {
+  box-sizing: border-box;
+  padding: 2rem;
+  width:100%;
+  height:100%;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+

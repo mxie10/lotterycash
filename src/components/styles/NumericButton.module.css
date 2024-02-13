@@ -1,0 +1,29 @@
+.container_numeric_button, .container_numeric_button_selected {
+    width: 23%;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, 0.712);
+    color: gold;
+    font-size: 3rem;
+    box-sizing: border-box;
+}
+
+.container_numeric_button {
+    border: 5px solid transparent;
+}
+
+.container_numeric_button_selected {
+    border: 5px solid rgb(177, 240, 123);
+}
+
+.container_numeric_button:hover {
+    background-color: rgb(94, 31, 31);
+}
+
+.selected {
+    border-color: rgb(128, 204, 84);
+}

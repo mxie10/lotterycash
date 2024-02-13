@@ -1,0 +1,16 @@
+.money_value_button {
+    border-radius: 50%;
+    width:45%;
+    height:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: rgb(45, 98, 145);
+    color: white;
+    font-size: 5rem;
+}
+
+.money_value_button:hover {
+    background-color: darkcyan;
+}
