@@ -81,7 +81,7 @@
 
 .container_generate_random_number {
   width: 100%;
-  height: 2rem;
+  height: 3rem;
   background-color: darkkhaki;
   display: flex;
   flex-direction: row;
@@ -89,6 +89,8 @@
   align-items: center;
   font-weight: bold;
   cursor: pointer;
+  border: 0.2rem solid blueviolet;
+  box-sizing: border-box;
 }
 
 .container_generate_random_number:hover {

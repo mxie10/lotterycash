@@ -53,7 +53,7 @@ function App() {
   }
 
   const generateRandomNumber = () => {
-    if(selectedValue.length > 0){
+    if (selectedValue.length > 0) {
       alert('Please clear out the current result first!');
       return;
     }
@@ -107,8 +107,6 @@ function App() {
     )
   }
 
-
-  // className={styles.container_right_area_content}
   const RightSection = () => {
     return (
       <div className={styles.container_right_area}>
