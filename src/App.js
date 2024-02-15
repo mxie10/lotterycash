@@ -113,7 +113,7 @@ function App() {
         <div className={styles.container_right_area_content}>
           <div style={{ height: '10%' }}>Number selected:</div>
           <div style={{ height: '80%' }}>
-            {ifCashed && selectedValue?.map((value, index) => {
+            {selectedValue && selectedValue?.map((value, index) => {
               return (
                 <div key={index}>
                   Mark: {value}
